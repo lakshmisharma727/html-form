@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Covid site</title>
+  </head>
+  <body style = "background-color:powderblue" >
+    <h1 style = "text-align:center;">Application Form</h1>
+    <table cellspacing = "9" rowspacing = "50"><tr>
+    <form method = "post" target = "_blank">
+      <td>
+<label>First name</label></td>
+<td>
+  <input type = "text" name = "first name" value = "" /></td>
+<td>
+  <label>Middel name</label></td>
+  <td>
+    <input type = "text" name = "Middle name" value = "" />
+  </td>
+  <td>
+    <label>Last name</label></td>
+    <td>
+      <input type = "text" name = "last name" value = "" />
+    </td> </tr>
+    <tr>
+    <td>
+      <label> Age </label></td>
+      <td>
+        <input type = "text" name = "Age" value = "" />
+      </td>
+    </tr><br />
+    <tr><td>
+    Gender:</td>
+    <td><label> Male</label>
+      <input type = "checkbox" name = "male" value = "Male" />
+      </td><td>
+      <label> Female </label>
+        <input type = "checkbox" name = "female" value = "Female" />
+        </td>
+</tr>
+<tr><td>
+  <label>Phone number </label>
+  <select name = "phone no.">
+    <option value = "977">977</option>
+    <option value = "91">91</option></td>
+  </select></td>
+    <td>
+<input type = "text" name = "phone number" value = "" />
+    </td></tr>
+    <table  cellspacing = "7">
+    <tr>
+      <td>DOB </td>
+<td><input type  = "text" name = "Day " value = ""  title = "Day"/ /> </td>
+<td><input type = "text" name = "month" value = ""  title = "Month" /></td>
+<td> <input type = "text"  name = "year" value = ""  title = "Year" /></td>
+  </tr></table>
+     Address Details:
+      <table  cellspacing = "5"><tr>
+    <td><label>Village/City</label>  </td>
+    <td><input type = "text" name = "" value = "" /></td>
+<tr>
+<td> <label> Post Office</label></td>
+    <td> <input type = "text" name = "" value = "" /></td>
+<tr><td><label> Distt</label></td>
+      <td> <input type = "text" name = "" value = "" /></td><br />
+        <tr>
+          <td><label>State</label></td>
+      <td> <input type = "text" name = "" value = ""  /></td></tr>
+    </table>
+    <br />
+      <hr size = "0" />
+      <p>
+    <b>I herby gives a consent that all the information provided above by me is true and I am completely responsible for it </b><input type = "checkbox" name = "" value = "" /></br>
+        <table>
+<tr>
+  <td>
+    Date:</td>
+  <td>  <input type = "text" name = " " value = "" />  </td>
+          </table><br /><br />
+    <input type = "Submit" name = "checkbox" value = "submit" />
+
+      </form>
+
+
+  </body>
+</html>
